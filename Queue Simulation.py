@@ -89,3 +89,9 @@ print("ST :", ST_copy)
 print("==============================================")
 print("Average Wait time: ", sum_wait/num_processes_served)        
 print("Average Delay time: ", sum_delay/num_processes_served)    
+
+#Formula Comparison
+print("==============================================")
+print('According to the formulas : ')
+print('Average Wait Time : ', ((sum_Wait/NUM_processes)+(1/ST_rate)))
+#print('Average Delay Time : ',AverageNumberOfCustomersInSystem * IAT_rate )
